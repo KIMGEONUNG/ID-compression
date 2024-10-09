@@ -33,6 +33,26 @@
 ---
 </div>
 
+## 🔧 Install Environment
+
+### Conda Environment
+
+We provide three Image-to-Image tasks
+
+- [InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix/tree/main)
+- [StableSR](https://github.com/IceClear/StableSR)
+- [ControlNet](https://github.com/lllyasviel/ControlNet )
+
+### Checkpoints
+
+## 🔥 Quick Inference
+
+### InstructPix2Pix
+
+### StableSR
+
+### ControlNet
+
 ## ☕️ Acknowledgment
 
 - We borrowed the readme format from [Upscale-A-Video](https://github.com/sczhou/Upscale-A-Video) 
