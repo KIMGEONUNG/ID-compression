@@ -1,4 +1,6 @@
 .idea/
+models/control_sd15_canny.pth
+logs
 
 training/
 lightning_logs/

@@ -30,14 +30,28 @@
     </h4>
 </div>
 
+![teaser](assets/teaser.png) 
 ---
+
 </div>
+
+## 🔥 Update
+
+- [2024.10.09] Depth-skip compression code is released
+- [2024.10.08] The repository is created.
+
 
 ## 🔧 Install Environment
 
+### Clone Repository
+
+```bash
+git clone git@github.com:KIMGEONUNG/ID-compression.git
+```
+
 ### Conda Environment
 
-We provide three Image-to-Image tasks
+We offer three applications using our compression method: InstructPix2Pix for image editing, StableSR for image restoration, and ControlNet for structure-guided image synthesis. Please refer to the original application repository to install the conda environments.
 
 - [InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix/tree/main)
 - [StableSR](https://github.com/IceClear/StableSR)
@@ -45,13 +59,45 @@ We provide three Image-to-Image tasks
 
 ### Checkpoints
 
-## 🔥 Quick Inference
+The checkpoint paths for each task are as follows. Please refer to the original repository to download the checkpoints.
+
+```bash
+# For InstructPix2Pix
+InstructPix2Pix/ckpts
+└── instruct-pix2pix-00-22000.ckpt
+
+# For StableSR
+StableSR/ckpts
+├── stablesr_000117.ckpt
+└── vqgan_cfw_00011.ckpt
+
+# For ControlNet
+ControlNet/models
+└── control_sd15_canny.pth 
+```
+
+## ⌨️  Quick Start
 
 ### InstructPix2Pix
 
+```bash
+cd InstructPix2Pix
+python depth-skip.py --depth 9
+```
+
 ### StableSR
 
+```bash
+cd StableSR
+python depth-skip.py --depth 9
+```
+
 ### ControlNet
+
+```bash
+cd ControlNet
+python depth-skip.py --depth 9
+```
 
 ## ☕️ Acknowledgment
 
