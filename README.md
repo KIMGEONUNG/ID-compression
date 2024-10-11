@@ -25,7 +25,7 @@
         <img src="https://img.shields.io/badge/🐳-Project%20Page-blue">
         </a>
         <a href="https://arxiv.org/abs/2401.17547" target='_blank'>
-        <img src="https://img.shields.io/badge/arXiv-2312.06640-b31b1b.svg">
+        <img src="https://img.shields.io/badge/arXiv-2401.17547-b31b1b.svg">
         </a>
     </h4>
 </div>
