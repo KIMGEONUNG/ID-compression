@@ -37,6 +37,7 @@
 
 ## 🔥 Update
 
+- [2025.01.25] Time-step optimization code for StableSR is released
 - [2024.10.09] Depth-skip compression code is released
 - [2024.10.08] The repository is created.
 
