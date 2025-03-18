@@ -37,6 +37,7 @@
 
 ## 🔥 Update
 
+- [2025.03.18] Time-step optimization code for IP2P is released
 - [2025.01.25] Time-step optimization code for StableSR is released
 - [2024.10.09] Depth-skip compression code is released
 - [2024.10.08] The repository is created.
@@ -104,7 +105,7 @@ python depth-skip.py --depth 9
 
 ### InstructPix2Pix
 
-| Step | Time-step sequence                                                                                   |
+| Step | Time-step sequence ($CFG_{text}=7.5$, $CFG_{image}=1.0$)                                             |
 |------|------------------------------------------------------------------------------------------------------|
 | 5    | [999, 916, 814, 674, 403]                                                                            |
 | 10   | [999, 937, 872, 802, 728, 646, 556, 452, 324, 124]                                                   |
@@ -122,7 +123,7 @@ python depth-skip.py --depth 9
 
 ### ControlNet
 
-| Step | Time-step sequence                                                                                   |
+| Step | Time-step sequence ($CFG_{text}=9.0$)                                                                |
 |------|------------------------------------------------------------------------------------------------------|
 | 5    | [999, 881, 741, 558, 219]                                                                            |
 | 10   | [999, 930, 858, 782, 701, 614, 518, 410, 279, 84]                                                    |
