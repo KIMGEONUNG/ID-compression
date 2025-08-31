@@ -78,6 +78,10 @@ ControlNet/models
 └── control_sd15_canny.pth 
 ```
 
+### Datasets
+
+- [Valid5000](https://drive.google.com/file/d/1VdwHG_EJrVWY51r5Ji2fhZdgDlnNJEDr/view?usp=sharing) for InstructPix2Pix
+
 ## ⌨️  Quick Start
 
 ### InstructPix2Pix
